@@ -14,6 +14,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    color:#757575;
 
 }
 
@@ -28,13 +29,11 @@ body {
 /* --------------------------------------Header-------------------------------------------- */
 .nav-logo {
     font-family: Raleway;
-    font-weight: 1700;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--primary-title-color);
-    text-decoration: none;
-
 }
 
 .logo {
@@ -94,8 +93,8 @@ body {
 }
 
 .hero-btn:hover {
-    background: var(--accent-color);
-    ;
+    background: #188CE8;
+    
 }
 
 /* -----------------------------------------Work------------------------------------- */
