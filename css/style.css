@@ -81,7 +81,7 @@ body {
     cursor: pointer;
     font-family: inherit;
     position: absolute;
-    border: 1px solid transparent;
+    border-radius: 4px;
     width: 200px;
     height: 50px;
     left: 700px;
@@ -90,9 +90,9 @@ body {
     background: var(--accent-color);
 }
 
-.hero-btn:hover
+.hero-btn:hover,
 .hero-btn:focus {
-    background: #188CE8;
+ background: #188CE8;
 }
 
 /* -----------------------------------------Work------------------------------------- */
