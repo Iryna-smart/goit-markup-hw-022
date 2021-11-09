@@ -99,7 +99,16 @@ body {
 .hero-btn:focus {
  background: #188CE8;
 }
-
+/* -------------------------Example---------------------- */
+.example-title,
+.primary-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+}
 /* -----------------------------------------Work------------------------------------- */
 .visually-hidden {
     position: absolute;
