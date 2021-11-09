@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,10 +7,6 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +19,7 @@
     <!-------------------------------- Header----------------------------------------- -->
     <header class="header">
       <nav class="header-nav">
-        <p class="nav-logo"><span class="logo"> Web</span>Studio</p>
+        <a class="nav-logo"><span class="logo"> Web</span>Studio</a>
         <ul class="nav-list list">
           <li class="nav-item">
             <a class="link nav-link" href="index.html">Студия</a>
@@ -49,83 +45,107 @@
         </li>
       </ul>
     </header>
-    <!-----------------------------------------Section portfolio----------------------------- -->
-    <section class="portfolio">
-      <section class="filter">
-        <ul class="filter-list list">
-          <li class="filter-item">
-            <button class="filter-btn" type="button">Все</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-btn" type="button">Веб-сайты</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-btn" type="button">Приложения</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-btn" type="button">Дизайн</button>
-          </li>
-          <li class="filter-item">
-            <button class="filter-btn" type="button">Маркетинг</button>
-          </li>
-        </ul>
+    
+      <!-----------------------------------------Section portfolio----------------------------- -->
+      <section class="portfolio">
+        <h1 class="visually-hidden">Наши проекты</h1>
+         <ul class="filter-list list">
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Все</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Приложения</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Дизайн</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+        
+          <ul class="project-list list">
+            <li class="project-item">
+              <a class="project-link link" href="">
+              <img src="./images/img 3.png" alt="Сайт на экране ноутбука" />
+              <h2 class="project-title">Технокряк</h2>
+              <p class="project-text">Веб-сайт</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-link link" href="">
+              <img src="./images/img 4.png" alt="Двое играют в баскетбол" />
+              <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+              <p class="project-text">Дизайн</p>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="project-link link" href="">
+              <img src="./images/img 5.png" alt="Логотип ресторана" />
+              <h2 class="project-title">Ресторан Seafood</h2>
+              <p class="project-text">Приложение</p>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="project-link link" href="">
+              <img src="./images/img 6.png" alt="Наушники" />
+              <h2 class="project-title">Проект Prime</h2>
+              <p class="project-text">Маркетинг</p>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="project-link link" href="">
+              <img src="./images/img 7.png" alt="Две коробки" />
+              <h2 class="project-title">Проект Boxes</h2>
+              <p class="project-text">Приложение</p>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="project-link link" href="">
+              <img src="./images/img 8.png" alt="Карта мира" />
+              <h2 class="project-title">Inspiration has no Borders</h2>
+              <p class="project-text">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="project-link link" href="">
+              <img
+                src="./images/img 9.png"
+                width="370"
+                alt="Страницы журнала"
+              />
+              <h2 class="project-title">Издание Limited Edition</h2>
+              <p class="project-text">Дизайн</p>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="project-link link" href="">
+              <img src="./images/img 10.png" alt="Бумажная бирка" />
+              <h2 class="project-title">Проект LAB</h2>
+              <p class="project-text">Маркетинг</p>
+              </a>
+            </li>
+            <li class="project-item">
+              <a class="project-link link" href="">
+              <img
+                src="./images/img 11.png"
+                alt="Руки на клавиатуре ноутбука"
+              />
+              <h2 class="project-title">Growing Business</h2>
+              <p class="project-text">Приложение</p>
+              </a>
+            </li>
+          </ul>
+        
       </section>
-
-      <!-------------------------------- Section project --------------------------------------->
-      <section class="project">
-        <ul class="project-list list">
-          <li class="project-item">
-            <img src="./images/img 3.png" alt="Сайт на экране ноутбука" />
-            <h2 class="project-title">Технокряк</h2>
-            <p class="project-text">Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/img 4.png" alt="Двое играют в баскетбол" />
-            <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
-            <p class="project-text">Дизайн</p>
-          </li>
-          <li class="project-item">
-            <img src="./images/img 5.png" alt="Логотип ресторана" />
-            <h2 class="project-title">Ресторан Seafood</h2>
-            <p class="project-text">Приложение</p>
-          </li>
-          <li class="project-item">
-            <img src="./images/img 6.png" alt="Наушники" />
-            <h2 class="project-title">Проект Prime</h2>
-            <p class="project-text">Маркетинг</p>
-          </li>
-          <li class="project-item">
-            <img src="./images/img 7.png" alt="Две коробки" />
-            <h2 class="project-title">Проект Boxes</h2>
-            <p class="project-text">Приложение</p>
-          </li>
-          <li class="project-item">
-            <img src="./images/img 8.png" alt="Карта мира" />
-            <h2 class="project-title">Inspiration has no Borders</h2>
-            <p class="project-text">Веб-сайт</p>
-          </li>
-          <li class="project-item">
-            <img src="./images/img 9.png" width="370" alt="Страницы журнала" />
-            <h2 class="project-title">Издание Limited Edition</h2>
-            <p class="project-text">Дизайн</p>
-          </li>
-          <li class="project-item">
-            <img src="./images/img 10.png" alt="Бумажная бирка" />
-            <h2 class="project-title">Проект LAB</h2>
-            <p class="project-text">Маркетинг</p>
-          </li>
-          <li class="project-item">
-            <img src="./images/img 11.png" alt="Руки на клавиатуре ноутбука" />
-            <h2 class="project-title">Growing Business</h2>
-            <p class="project-text">Приложение</p>
-          </li>
-        </ul>
-      </section>
-    </section>
+    </main>
     <!------------------------------------ footer2-------------------------------------------------- -->
-    <section class="footer">
-      <p class="footer-logo"><span class="logo">Web</span>Studio</p>
-      <section class="address">
+    <footer class="footer">
+      <a class="footer-logo"><span class="logo">Web</span>Studio</a>
+      <address>
         <ul class="footer-contact list">
           <li class="contact-item">
             <a class="footer-address" href=""
@@ -143,7 +163,7 @@
             >
           </li>
         </ul>
-      </section>
-    </section>
+      </address>
+    </footer>
   </body>
 </html>

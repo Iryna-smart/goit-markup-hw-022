@@ -3,10 +3,10 @@
     --secondary-text-color: rgba(117, 117, 117, 1);
     --primary-title-color: #212121;
     --secondary-title-color: #FFFFFF;
+    --link-color: #757575;
     --primary-button-color: rgba(33, 33, 33, 1);
-    --secondary-button-color: rgba(255, 255, 255, 1);
+    --secondary-button-color: rgba(255, 255, 255, 0.6);
     --primary-background-button: #F5F4FA;
-    ;
     --secondary-background-button: #2196F3;
     --accent-color: #2196F3;
 
@@ -14,7 +14,9 @@
 
 body {
     font-family: Roboto, sans-serif;
-    color:#757575;
+    font-size: 14px;
+    line-height: 1.71;
+    color:var(--secondary-text-color);
 
 }
 
@@ -47,6 +49,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+}
+.contact-link{
+    color: var(--link-color);
 }
 
 .nav-link:hover,
@@ -117,8 +122,7 @@ body {
 }
 
 .work-after-title {
-    font-size: 14px;
-    line-height: 1.71;
+    
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 
@@ -135,9 +139,9 @@ body {
 }
 
 .team-after-title {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 
@@ -150,21 +154,27 @@ body {
 
 .footer-logo {
     font-family: Raleway;
-    font-weight: 1700;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--secondary-title-color);
 }
-
+address {
+    font-style: normal;
+}
 .footer-address {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--secondary-title-color);
+    color:var(--secondary-button-color);
     text-decoration: none;
+}
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--secondary-title-color);
 }
 
 .footer-link {
@@ -172,17 +182,23 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--secondary-button-color);
     
 }
 .footer-link:hover,
 .footer-link:focus{
-    color: var(--accent-color);
+    color: var(--secondary-title-color);
 }
+
 
 /* -------------------------------------Portfolio----------------------------------- */
 .filter-btn {
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--primary-button-color);
     background-color: var(--primary-background-button);
     cursor: pointer;
